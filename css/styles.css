@@ -1,0 +1,97 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.card {
+  border-radius: 1em;
+  /* text-align: center; */
+  padding: auto;
+}
+
+.card:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+  border-radius: 0.9em;
+}
+.btn_profile{
+  margin-left: 110px;
+  height: 100px;
+  width: 200px;
+}
+.centered {
+/* display: flex;
+padding: 30px;
+width: 400px;
+margin-left: auto;
+margin-right: auto;
+align-items: center; */
+
+display: flex;
+align-items: center;
+justify-content: center;
+margin-top: 200px;
+}
+
+.signup {
+  height: 100vh;
+  margin: auto;
+  font-family: Montserrat, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  margin: 10px 0;
+  padding: 10px;
+  border: unset;
+  border-bottom: 2px solid #e3e3e3;
+  outline: none;
+}
+
+button {
+  padding: 10px;
+  background: #e3e3e3;
+  border: unset;
+  cursor: pointer;
+}
+
+a {
+  color: #7c9ab7;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+p {
+  margin: 10px 0;
+}
+
+.msg {
+  border: 2px solid #b2d0fd;
+  border-radius: 3px;
+  padding: 10px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.logout {
+  color: #b2d0fd;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.profile {
+  padding-top: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

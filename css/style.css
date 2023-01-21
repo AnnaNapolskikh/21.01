@@ -1,0 +1,57 @@
+
+textarea {
+    resize: none;
+    font-family: arial;
+    height: 50px;
+    width: 87%;
+    margin-left: 5%; 
+    border-radius: 5px;
+    padding: 10px;
+    display: inline-block;
+}
+
+.comment {
+    border: 5px solid;
+    border-color:#4e96f5;
+    border-radius: 5px;
+    font-family: arial;
+    width: auto;
+    margin-left: 5%; 
+    margin-right: 5%;
+    height: auto;
+    padding: 10px;
+    background-color: #ffffff;
+    word-break:break-all;
+}
+
+.center {
+    width: 58%;
+    border-radius: 10px;
+    margin: 0 auto;
+    /* background-color: #cbe8f3; */
+}
+
+.centerhead {
+
+    margin-top: 15px;
+    margin-left: 41%;
+}
+
+
+.centertext {
+    font-family: monospace; 
+    font-stretch: semi-expanded;
+    font-size: 30px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    color: #4e96f5;
+    border: none;  
+}
+
+.button_less{
+    margin-left: 5%;
+}
+.card-text{
+margin-left: 5%;
+}

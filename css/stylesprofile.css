@@ -1,0 +1,19 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  }
+
+.round {
+  border-radius: 100px; /* Радиус скругления */
+  box-shadow: 0 0 0 5px rgb(86, 117, 219)/* Параметры теней */
+}
+
+.card img {
+  border-radius: 0.5em;
+}
+
+.info {
+margin: 10px;
+margin-left: 0px;
+}
